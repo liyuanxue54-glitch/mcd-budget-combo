@@ -1,0 +1,23 @@
+{
+  "store": {
+    "name": "演示门店·科技园店",
+    "storeCode": "DEMO001",
+    "beType": "DINE_IN"
+  },
+  "meals": [
+    {"code": "M-BIG", "name": "巨无霸套餐", "category": "套餐", "tags": ["汉堡"], "price": 42.0, "spicy": false},
+    {"code": "M-JLS", "name": "麦辣鸡腿堡套餐", "category": "套餐", "tags": ["汉堡", "辣"], "price": 40.0, "spicy": true},
+    {"code": "M-JSC", "name": "双层吉士汉堡套餐", "category": "套餐", "tags": ["汉堡"], "price": 32.0, "spicy": false},
+    {"code": "M-JIJIA", "name": "麦香鸡套餐", "category": "套餐", "tags": ["汉堡"], "price": 28.0, "spicy": false},
+    {"code": "S-FRIES-M", "name": "薯条（中）", "category": "小食", "tags": ["薯条"], "price": 13.0, "spicy": false},
+    {"code": "S-NUG-6", "name": "麦乐鸡 6 块", "category": "小食", "tags": ["鸡块"], "price": 16.0, "spicy": false},
+    {"code": "D-COLA-0", "name": "可口可乐（无糖中）", "category": "饮料", "tags": ["无糖"], "price": 11.0, "spicy": false},
+    {"code": "D-COLA", "name": "可口可乐（中）", "category": "饮料", "tags": [], "price": 11.0, "spicy": false},
+    {"code": "D-OJ", "name": "阳光柠檬红茶（中）", "category": "饮料", "tags": ["少糖可选"], "price": 12.0, "spicy": false}
+  ],
+  "coupons": [
+    {"id": "C-10", "name": "满 60 减 10", "threshold": 60, "discount": 10},
+    {"id": "C-5", "name": "任意消费减 5", "threshold": 0, "discount": 5}
+  ],
+  "note": "本地 mock，仅供无 Token 时演示；真实价格以 MCP calculate-price 为准。"
+}
